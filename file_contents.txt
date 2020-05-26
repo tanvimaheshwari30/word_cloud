@@ -1,0 +1,16 @@
+Java’s syntax is similar to C/C++, with curly braces for closures and semicolons to end statements. Automatic memory management is one of the features that made Java so popular, quickly after its initial release. Before Java was introduced, languages that required manual memory management, such as C and C++
+C has a long history of development on older systems with slower processors and little memory. Programs written in C had to be very efficient, so C has a reputation for high performance in cases where speed matters.
+
+Python is a relatively new interpreted programming language, first introduced in 1989. It is an interpreted language that supports automatic memory management and object-oriented programming.
+
+Python is very popular for general-purpose programming, including web applications. It has recently become known for specialty use in artificial intelligence applications.
+
+Python jobs are very plentiful, so it’s easy to find a job using Python.
+C++ extends C with object-oriented features. The “double-plus” comes from the increment operator from C. C++ was developed to bring features from older languages to faster, more powerful platforms.
+
+C++ occupies a similar area in the market as C, including systems programming and low-level hardware development. Over the years, the C++ standard libraries and specification have been expanded considerably, leading to criticism that it has become over-complicated and difficult to learn.
+
+Ruby is an interpreted, dynamically typed, object-oriented language first introduced in the mid-1990s. It was inspired by several other languages on this list, including Lisp, Perl, and Ada. Ruby is very popular for web application development. The Ruby on Rails framework (now known simply as “Rails”) is a model-view-component server-side framework written in Ruby.
+
+Ruby is fairly easy to learn. Its common use in web applications makes job opportunities easy to find.
+MATLAB is not a programming language, per se. It is an application that is used to calculate and model complex mathematical computations. It is used primarily in research settings, at universities and labs. MATLAB can handle complex matrix manipulations, and supports extensions to use complex mathematical notation. 
