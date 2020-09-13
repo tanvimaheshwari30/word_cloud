@@ -70,7 +70,6 @@ _upload()
 
 # Write a function in the cell below that iterates through the words in *file_contents*, removes punctuation, and counts the frequency of each word.  Oh, and be sure to make it ignore word case, words that do not contain all alphabets and boring words like "and" or "the".  Then use it in the `generate_from_frequencies` function to generate your very own word cloud!
 # <br><br>
-# **Hint:** Try storing the results of your iteration in a dictionary before passing them into wordcloud via the `generate_from_frequencies` function.
 
 # In[30]:
 
@@ -79,8 +78,7 @@ def calculate_frequencies(file_contents):
     # Here is a list of punctuations and uninteresting words you can use to process your text
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
     uninteresting_words = ["the", "a", "to", "if", "is", "it", "in","of", "and", "or", "an", "as", "i", "me", "my",     "we", "our", "ours", "you", "your", "yours", "he", "she", "him", "his", "her", "hers", "its", "they", "them",     "their", "what", "which", "who", "whom", "this", "that", "am", "are", "was", "were", "be", "been", "being",     "have", "has", "had", "do", "does", "did", "but", "at", "by", "with", "from", "here", "when", "where", "how",     "all", "any", "both", "each", "for","few", "more", "some", "such", "no", "nor", "too", "very", "can", "will", "just"]
-    
-    # LEARNER CODE START HERE
+   
     
     frequencies={}
     file_contents = file_contents.split()
@@ -105,8 +103,6 @@ def calculate_frequencies(file_contents):
     return cloud.to_array()
 
 
-# If you have done everything correctly, your word cloud image should appear after running the cell below.  Fingers crossed!
-
 # In[31]:
 
 
@@ -116,12 +112,6 @@ myimage = calculate_frequencies(file_contents)
 plt.imshow(myimage, interpolation = 'nearest')
 plt.axis('off')
 plt.show()
-
-
-# If your word cloud image did not appear, go back and rework your `calculate_frequencies` function until you get the desired output.  Definitely check that you passed your frequecy count dictionary into the `generate_from_frequencies` function of `wordcloud`. Once you have correctly displayed your word cloud image, you are all done with this project. Nice work!
-
-# In[ ]:
-
 
 
 
